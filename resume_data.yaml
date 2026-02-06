@@ -16,7 +16,7 @@ about:
   summary: |
     I'm Simon, and I work with technology to solve problems. Every day I seem to discover a new version of what kind of engineer I am. Started as Software, evolved to Operations, then DevOps, Platform, Monitoring, Kubernetes, Cloud, Lead, Architect, Data Engineer, and now ML Systems Engineer. At this rate, I'll probably be a Quantum Blockchain AI Engineer by next Tuesday.
 
-    I like building systems that work reliably at scale. Whether it's automating workflows, designing cloud architecture, or implementing ML pipelines, I focus on practical solutions that teams can actually maintain. I'm comfortable across the full stack—from network configs to distributed systems to ML model deployment.
+    I like building systems that work reliably at scale. Whether it's automating workflows, designing cloud architecture, or implementing ML pipelines, I focus on practical solutions that teams can actually maintain. I'm comfortable across the full stack, from network configs to distributed systems to ML model deployment.
 
     Currently fascinated by how ML/AI tooling is changing how we build and operate systems. Always learning, always building, always trying to make things work better than they did yesterday. Strong believer in automation, good documentation, and systems that don't wake you up at 3 AM.
 
@@ -316,9 +316,61 @@ skills:
 
 experience:
   corporate:
+    - company: "European Commission"
+      positions:
+        - title: "Architect"
+          type: "Contract"
+          duration: "March 2024 - Present"
+          location: "Remote"
+          responsibilities:
+            - "Designed and prototyped internal platform services for artifact management and container delivery, now adopted by multiple teams"
+            - "Developed business vision for consolidated artifact management across the organization"
+            - "Driving cost optimization through shared, auto-scaling infrastructure replacing individual managed instances"
+            - "Designing security control layers to proxy public registries and enforce vulnerability policies"
+            - "Led service improvement initiatives for internal Kubernetes-as-a-Service platform"
+            - "Designed and implemented disaster recovery strategies for hybrid environments (on-premises and AWS)"
+            - "Leading stakeholder alignment across multiple teams to define tooling requirements and governance model"
+            - "Reviewing architectural proposals from peer architects, providing technical guidance and feedback"
+            - "Mentoring developers and helping colleagues upskill on cloud and platform technologies"
+          daily_stack:
+            - "AWS"
+            - "EKS"
+            - "GitLab CI"
+            - "Terraform"
+            - "ArgoCD"
+            - "Docker"
+            - "Python"
+          exposure:
+            - "Service Design"
+            - "Business Vision Development"
+            - "Stakeholder Management"
+            - "Disaster Recovery Planning"
+            - "Hybrid Cloud Architecture"
+
+    - company: "Self-Employed"
+      positions:
+        - title: "Architect (Part-Time/Ad-Hoc)"
+          type: "Freelance/Advisory"
+          duration: "June 2024 - Present"
+          location: "Remote"
+          responsibilities:
+            - "Providing architectural consulting and advisory services to enterprise clients including Roche, Orange, and Cisco"
+            - "Advising on cloud architecture, platform engineering, and DevOps transformation initiatives"
+            - "Reviewing technical designs and providing recommendations for scalability and cost optimization"
+            - "Supporting clients with ML/AI pipeline architecture and serverless migrations"
+          daily_stack:
+            - "AWS"
+            - "Kubernetes"
+            - "Terraform"
+            - "Python"
+          exposure:
+            - "Enterprise architecture consulting"
+            - "Technical due diligence"
+            - "Cloud cost optimization"
+
     - company: "Roche"
       positions:
-        - title: "Technical Architect - ML/AI Data Platform"
+        - title: "Architect - ML/AI Data Platform"
           type: "Contract/Freelance"
           duration: "March 2024 - May 2024"
           location: "Basel, Switzerland (Remote)"
@@ -394,84 +446,6 @@ experience:
             - "MLOps platforms"
             - "Auto-scaling solutions"
             - "Cloudflare integration"
-
-    - company: "Self-Employed"
-      positions:
-        - title: "Ad Hoc Solutions Architect"
-          type: "Freelance/Advisory"
-          duration: "June 2024 - Present"
-          location: "Remote"
-          responsibilities:
-            - "Providing architectural consulting and advisory services to enterprise clients including Roche, Orange, and Cisco"
-            - "Advising on cloud architecture, platform engineering, and DevOps transformation initiatives"
-            - "Reviewing technical designs and providing recommendations for scalability and cost optimization"
-            - "Supporting clients with ML/AI pipeline architecture and serverless migrations"
-          daily_stack:
-            - "AWS"
-            - "Kubernetes"
-            - "Terraform"
-            - "Python"
-          exposure:
-            - "Enterprise architecture consulting"
-            - "Technical due diligence"
-            - "Cloud cost optimization"
-
-    - company: "European Commission"
-      positions:
-        - title: "Solutions Architect - Artefact Store & Platform Innovation"
-          type: "Contract"
-          duration: "October 2024 - Present"
-          location: "Remote"
-          responsibilities:
-            - "Designed and prototyped RefStore, a catalogue of scanned and signed Docker images and binaries—now adopted by multiple teams"
-            - "Conceived NexusRepositoryAsAService initiative, developing the business vision for consolidated artifact management across the organization"
-            - "Driving cost optimization strategy through shared, auto-scaling Nexus Registry instances replacing individual managed instances"
-            - "Designing security control layer to proxy public registries and enforce decommissioning of vulnerable artifacts"
-            - "Collaborating with Developer Platform team to integrate artifact governance at the pipeline level"
-            - "Leading stakeholder alignment across multiple teams to define tooling requirements and governance model"
-            - "Delivered initial AWS-based artifact store instance, currently integrating with critical platform services"
-            - "Reviewing architectural proposals from peer architects, providing technical guidance and feedback"
-            - "Mentoring developers and helping colleagues upskill on cloud and platform technologies"
-            - "Drafted comprehensive service evolution vision with Business Owner, positioning Artefact Store for future growth"
-          daily_stack:
-            - "AWS"
-            - "GitLab CI"
-            - "Terraform"
-            - "Nexus Repository"
-            - "Docker"
-            - "Container registries"
-            - "Python"
-          exposure:
-            - "Service Design"
-            - "Business Vision Development"
-            - "Stakeholder Management"
-            - "Technical Governance"
-            - "Cross-team Collaboration"
-
-        - title: "Solutions Architect - CDM Service"
-          type: "Contract"
-          duration: "March 2024 - September 2024"
-          location: "Remote"
-          responsibilities:
-            - "Led service improvement initiatives for Container Delivery Management (CDM), a platform providing Kubernetes clusters as code to internal consumers"
-            - "Drove security compliance efforts, bringing the service in line with organizational security requirements"
-            - "Designed and implemented disaster recovery strategies for hybrid environments (on-premises TKGIv2 and AWS EKS)"
-            - "Troubleshot and optimized AWS Step Functions workflows, proposing pivots toward a more coherent technology stack"
-            - "Supported sub-services like CaaS (Cluster as a Service) built on CDM's Kubernetes offerings"
-          daily_stack:
-            - "AWS Step Functions"
-            - "EKS"
-            - "CloudWatch"
-            - "ArgoCD"
-            - "TKGIv2"
-            - "GitLab CI"
-            - "Terraform"
-          exposure:
-            - "Disaster Recovery Planning"
-            - "Security Compliance"
-            - "Hybrid Cloud Architecture"
-            - "Internal Platform Development"
-            - "Multi-tenant Architecture"
 
     - company: "Cisco"
       positions:
@@ -763,13 +737,13 @@ services:
     color: "sky-color"
     title: "Solutions Architecture"
     description: |
-      I design systems that scale and last. Whether it's artifact management platforms, ML/AI data pipelines, or internal developer tools—I understand requirements, evaluate options, and architect pragmatically. No ivory tower architecture—just practical solutions that teams can maintain and evolve.
+      I design systems that scale and last. Whether it's artifact management platforms, ML/AI data pipelines, or internal developer tools, I understand requirements, evaluate options, and architect pragmatically. No ivory tower architecture, just practical solutions that teams can maintain and evolve.
 
   - icon: "fa-rocket"
     color: "green-color"
     title: "Hands-on Delivery & Team Enablement"
     description: |
-      I learn by building. I prototype quickly, validate assumptions, and iterate toward production. I also invest in people—mentoring developers, facilitating cross-team alignment, and ensuring knowledge transfer happens naturally. The best architectures emerge from collaborative conversations, not top-down mandates.
+      I learn by building. I prototype quickly, validate assumptions, and iterate toward production. I also invest in people, mentoring developers, facilitating cross-team alignment, and ensuring knowledge transfer happens naturally. The best architectures emerge from collaborative conversations, not top-down mandates.
 
 # Projects will be populated dynamically from GitHub API
 projects: []
