@@ -82,3 +82,11 @@ jobs:
           BUCKET: simon-resume-bucket
         run: |
           aws s3 sync html/ s3://$BUCKET --delete --cache-control "public, max-age=3600"
+
+      - name: Invalidate CloudFront cache
+        env:
+          BUCKET: simon-resume-bucket
+        run: |
+          aws cloudfront list-distributions \
+            --query "DistributionList.Items[?Origins.Items[0].DomainName=='${BUCKET}.s3.eu-central-1.amazonaws.com'].Id | [0]" \
+            --output text | xargs -I {} aws cloudfront create-invalidation --distribution-id {} --paths "/*"
