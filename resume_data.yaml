@@ -1,0 +1,781 @@
+# Resume Data for Szymon Piskorz
+# Last Updated: February 2026
+
+personal_info:
+  name: "Szymon Piskorz"
+  title: "Solutions Architect | Tech Lead | Engineer"
+  email: "sim.piskorz@gmail.com"
+  phone: "+48 534 716 358"
+  location: "Poland"
+  website: "devouch.com"
+  social:
+    linkedin: "https://www.linkedin.com/in/simon-piskorz/"
+    github: "https://github.com/simonloach"
+
+about:
+  summary: |
+    I'm Simon, and I work with technology to solve problems. Every day I seem to discover a new version of what kind of engineer I am. Started as Software, evolved to Operations, then DevOps, Platform, Monitoring, Kubernetes, Cloud, Lead, Architect, Data Engineer, and now ML Systems Engineer. At this rate, I'll probably be a Quantum Blockchain AI Engineer by next Tuesday.
+
+    I like building systems that work reliably at scale. Whether it's automating workflows, designing cloud architecture, or implementing ML pipelines, I focus on practical solutions that teams can actually maintain. I'm comfortable across the full stack—from network configs to distributed systems to ML model deployment.
+
+    Currently fascinated by how ML/AI tooling is changing how we build and operate systems. Always learning, always building, always trying to make things work better than they did yesterday. Strong believer in automation, good documentation, and systems that don't wake you up at 3 AM.
+
+  tags:
+    - "System Design"
+    - "Business Vision & Strategy"
+    - "Stakeholder Alignment"
+    - "Service Design & Prototyping"
+    - "Cross-team Collaboration"
+    - "Technical Governance"
+    - "Cloud Architecture"
+    - "DevOps & Platform Engineering"
+    - "Kubernetes & Containerization"
+    - "ML/AI Operations"
+    - "Infrastructure as Code"
+    - "Monitoring & Observability"
+    - "CI/CD Pipelines"
+    - "Team Leadership"
+
+skills:
+  technical:
+    # Programming Languages
+    - name: "Python"
+      level: "Expert"
+      percentage: 100
+      category: "Programming"
+    - name: "Bash"
+      level: "Proficient"
+      percentage: 75
+      category: "Programming"
+    - name: "Golang"
+      level: "Competent"
+      percentage: 65
+      category: "Programming"
+    - name: "Java"
+      level: "Beginner"
+      percentage: 40
+      category: "Programming"
+    - name: "C++"
+      level: "Beginner"
+      percentage: 35
+      category: "Programming"
+    
+    # Orchestration
+    - name: "Kubernetes"
+      level: "Expert"
+      percentage: 100
+      category: "Orchestration"
+    - name: "Docker Compose"
+      level: "Expert"
+      percentage: 60
+      category: "Orchestration"
+    - name: "Openshift"
+      level: "Proficient"
+      percentage: 60
+      category: "Orchestration"
+    - name: "Airflow"
+      level: "Proficient"
+      percentage: 75
+      category: "Orchestration"
+    - name: "n8n"
+      level: "Proficient"
+      percentage: 75
+      category: "Orchestration"
+    - name: "microk8s"
+      level: "Proficient"
+      percentage: 60
+      category: "Orchestration"
+    - name: "k3s"
+      level: "Proficient"
+      percentage: 60
+      category: "Orchestration"
+    - name: "Stonebranch"
+      level: "Competent"
+      percentage: 40
+      category: "Orchestration"
+    
+    # Cloud Platforms
+    - name: "AWS"
+      level: "Expert"
+      percentage: 95
+      category: "Cloud"
+    - name: "VMware vCloud"
+      level: "Proficient"
+      percentage: 10
+      category: "Cloud"
+    - name: "GCP"
+      level: "Competent"
+      percentage: 25
+      category: "Cloud"
+    - name: "OpenStack"
+      level: "Competent"
+      percentage: 30
+      category: "Cloud"
+    - name: "Proxmox"
+      level: "Competent"
+      percentage: 15
+      category: "Cloud"
+    - name: "TrueNAS"
+      level: "Beginner"
+      percentage: 15
+      category: "Cloud"
+    
+    # Infrastructure & IaC Tools
+    - name: "AWS CDK"
+      level: "Expert"
+      percentage: 95
+      category: "IaC and GitOps"
+    # IaC and GitOps
+    - name: "Terraform"
+      level: "Expert"
+      percentage: 95
+      category: "IaC and GitOps"
+    - name: "Ansible"
+      level: "Expert"
+      percentage: 70
+      category: "IaC and GitOps"
+    - name: "ArgoCD"
+      level: "Proficient"
+      percentage: 95
+      category: "IaC and GitOps"
+    - name: "FluxCD"
+      level: "Proficient"
+      percentage: 60
+      category: "IaC and GitOps"
+    - name: "CloudFormation"
+      level: "Proficient"
+      percentage: 70
+      category: "IaC and GitOps"
+    - name: "Pulumi"
+      level: "Competent"
+      percentage: 65
+      category: "IaC and GitOps"    # CI/CD
+    - name: "GitLab CI"
+      level: "Expert"
+      percentage: 95
+      category: "CICD"
+    - name: "GitHub Actions"
+      level: "Expert"
+      percentage: 75
+      category: "CICD"
+    - name: "Jenkins"
+      level: "Proficient"
+      percentage: 70
+      category: "CICD"
+    
+    # AWS Services
+    - name: "EC2"
+      level: "Expert"
+      percentage: 60
+      category: "AWS"
+    - name: "S3"
+      level: "Expert"
+      percentage: 60
+      category: "AWS"
+    - name: "Lambda"
+      level: "Expert"
+      percentage: 95
+      category: "AWS"
+    - name: "EKS"
+      level: "Expert"
+      percentage: 95
+      category: "AWS"
+    - name: "VPC"
+      level: "Expert"
+      percentage: 60
+      category: "AWS"
+    - name: "IAM"
+      level: "Expert"
+      percentage: 60
+      category: "AWS"
+    - name: "ECS"
+      level: "Proficient"
+      percentage: 40
+      category: "AWS"
+    - name: "RDS"
+      level: "Proficient"
+      percentage: 40
+      category: "AWS"
+    - name: "CloudWatch"
+      level: "Proficient"
+      percentage: 95
+      category: "AWS"
+    - name: "Route53"
+      level: "Proficient"
+      percentage: 95
+      category: "AWS"
+    - name: "CloudFront"
+      level: "Proficient"
+      percentage: 40
+      category: "AWS"
+    - name: "MWAA"
+      level: "Proficient"
+      percentage: 40
+      category: "AWS"
+    - name: "SageMaker"
+      level: "Competent"
+      percentage: 40
+      category: "AWS"
+    - name: "Bedrock"
+      level: "Proficient"
+      percentage: 75
+      category: "AWS"
+    - name: "Redshift"
+      level: "Beginner"
+      percentage: 40
+      category: "AWS"
+    - name: "DynamoDB"
+      level: "Beginner"
+      percentage: 40
+      category: "AWS"
+    - name: "Glue"
+      level: "Proficient"
+      percentage: 75
+      category: "AWS"
+    - name: "Step Functions"
+      level: "Proficient"
+      percentage: 75
+      category: "AWS"
+    - name: "ECR"
+      level: "Beginner"
+      percentage: 80
+      category: "AWS"
+    - name: "Athena"
+      level: "Beginner"
+      percentage: 40
+      category: "AWS"
+    - name: "OpenSearch"
+      level: "Beginner"
+      percentage: 40
+      category: "AWS"
+    - name: "X-Ray"
+      level: "Beginner"
+      percentage: 40
+      category: "AWS"
+    - name: "Batch"
+      level: "Beginner"
+      percentage: 40
+      category: "AWS"
+    
+    # Databases
+    - name: "AWS DynamoDB"
+      level: "Proficient"
+      percentage: 60
+      category: "Database"
+    - name: "AWS RDS Aurora"
+      level: "Proficient"
+      percentage: 40
+      category: "Database"
+    - name: "Neo4j"
+      level: "Proficient"
+      percentage: 40
+      category: "Database"
+    - name: "Neptune"
+      level: "Competent"
+      percentage: 40
+      category: "Database"
+    - name: "AWS Redshift"
+      level: "Competent"
+      percentage: 60
+      category: "Database"
+    - name: "DuckDB"
+      level: "Competent"
+      percentage: 40
+      category: "Database"
+    - name: "OpenSearch"
+      level: "Competent"
+      percentage: 40
+      category: "Database"
+    
+    # Monitoring
+    - name: "Prometheus"
+      level: "Proficient"
+      percentage: 85
+      category: "Monitoring"
+    - name: "Grafana"
+      level: "Proficient"
+      percentage: 85
+      category: "Monitoring"
+    - name: "Datadog"
+      level: "Proficient"
+      percentage: 75
+      category: "Monitoring"
+    - name: "ELK Stack"
+      level: "Proficient"
+      percentage: 70
+      category: "Monitoring"
+    
+    # Frontend (with disclaimer)
+    - name: "HTML/CSS/JS"
+      level: "Beginner"
+      percentage: 60
+      category: "Frontend"
+      note: "Full disclosure: This resume page is the only frontend I've built, and it was vibecoded with an LLM 🤖"
+
+
+
+experience:
+  corporate:
+    - company: "Roche"
+      positions:
+        - title: "Technical Architect - ML/AI Data Platform"
+          type: "Contract/Freelance"
+          duration: "March 2024 - May 2024"
+          location: "Basel, Switzerland (Remote)"
+          responsibilities:
+            - "Redesigned entire AWS data pipeline architecture, migrating from Kubernetes-based workloads to serverless"
+            - "Architected new stack leveraging AWS Bedrock for LLM inference, Glue for ETL, and Step Functions for orchestration"
+            - "Consulting on upstream application architecture and evaluating vendor solutions"
+            - "Established Infrastructure as Code practices with Python and AWS CDK across the platform"
+            - "Driving architectural decisions for near-zero downtime data processing pipelines"
+          daily_stack:
+            - "Python"
+            - "AWS Bedrock"
+            - "AWS Glue"
+            - "AWS Lambda"
+            - "AWS Step Functions"
+            - "AWS CDK"
+          exposure:
+            - "Serverless architecture migration"
+            - "LLM-based data processing at scale"
+            - "Cost optimization through architecture redesign"
+
+        - title: "Technical Product Manager / Tech Lead - ML/AI Data Product"
+          type: "Contract/Freelance"
+          duration: "December 2023 - February 2024"
+          location: "Basel, Switzerland (Remote)"
+          responsibilities:
+            - "Led team using LLMs to validate CRM data quality, replacing manual human review process with inference through AWS Bedrock"
+            - "First project at Roche to use ML at scale, improving data checking from 3% to 100%"
+            - "Managing cross-functional team of 2 MLOps engineers, one Business Analyst, and a Data Engineer"
+            - "Proposing architectural changes and improvements to the data processing pipeline"
+            - "Managing project to create near-zero downtime leveraging services of the Data Platform"
+            - "Focusing on matching business process to prompt metrics to avoid additional human review bottlenecks"
+          daily_stack:
+            - "Python"
+            - "Airflow"
+            - "AWS Bedrock"
+            - "AWS Sagemaker"
+            - "Redshift"
+            - "AWS Redshift-Bedrock integration"
+          exposure:
+            - "Private patches for newly released AWS features"
+            - "Data pipeline optimization"
+            - "Benchmarking frameworks for prompt optimization"
+            - "Structured data inference"
+
+        - title: "Kubernetes DevOps Engineer"
+          type: "Contract/Freelance"
+          duration: "October 2022 - November 2023"
+          location: "Basel, Switzerland (Remote)"
+          responsibilities:
+            - "Supporting workflows required for running ETL processes for data warehouse project"
+            - "Project supporting insights built on top of Redshift, Glue, Athena"
+            - "Managing EKS cluster deployed via AWS CDK with custom integrations"
+            - "Deploying ArgoCD applications from CDK in efficient manner using runtime generated GitOps"
+            - "Building platform for data scientists to deploy web applications via AWS CDK Constructs"
+            - "Providing e2e process from Docker image to k8s deployment with load balancing and sub-domain registration + Cloudflare setup"
+            - "Providing Kubeflow instance for Data Scientists stable work environment"
+            - "Managing runtime environment with Horizontal and Vertical automated scaling for Data processing jobs via Airflow using EKS as runtime"
+          daily_stack:
+            - "AWS CDK"
+            - "EKS"
+            - "ArgoCD"
+            - "Airflow"
+            - "Python"
+            - "Kubernetes"
+            - "Helm"
+            - "GitLab CI"
+            - "AWS Redshift"
+            - "Kubeflow"
+          exposure:
+            - "GitOps practices"
+            - "Data warehouse architecture"
+            - "MLOps platforms"
+            - "Auto-scaling solutions"
+            - "Cloudflare integration"
+
+    - company: "Self-Employed"
+      positions:
+        - title: "Ad Hoc Solutions Architect"
+          type: "Freelance/Advisory"
+          duration: "June 2024 - Present"
+          location: "Remote"
+          responsibilities:
+            - "Providing architectural consulting and advisory services to enterprise clients including Roche, Orange, and Cisco"
+            - "Advising on cloud architecture, platform engineering, and DevOps transformation initiatives"
+            - "Reviewing technical designs and providing recommendations for scalability and cost optimization"
+            - "Supporting clients with ML/AI pipeline architecture and serverless migrations"
+          daily_stack:
+            - "AWS"
+            - "Kubernetes"
+            - "Terraform"
+            - "Python"
+          exposure:
+            - "Enterprise architecture consulting"
+            - "Technical due diligence"
+            - "Cloud cost optimization"
+
+    - company: "European Commission"
+      positions:
+        - title: "Solutions Architect - Artefact Store & Platform Innovation"
+          type: "Contract"
+          duration: "October 2024 - Present"
+          location: "Remote"
+          responsibilities:
+            - "Designed and prototyped RefStore, a catalogue of scanned and signed Docker images and binaries—now adopted by multiple teams"
+            - "Conceived NexusRepositoryAsAService initiative, developing the business vision for consolidated artifact management across the organization"
+            - "Driving cost optimization strategy through shared, auto-scaling Nexus Registry instances replacing individual managed instances"
+            - "Designing security control layer to proxy public registries and enforce decommissioning of vulnerable artifacts"
+            - "Collaborating with Developer Platform team to integrate artifact governance at the pipeline level"
+            - "Leading stakeholder alignment across multiple teams to define tooling requirements and governance model"
+            - "Delivered initial AWS-based artifact store instance, currently integrating with critical platform services"
+            - "Reviewing architectural proposals from peer architects, providing technical guidance and feedback"
+            - "Mentoring developers and helping colleagues upskill on cloud and platform technologies"
+            - "Drafted comprehensive service evolution vision with Business Owner, positioning Artefact Store for future growth"
+          daily_stack:
+            - "AWS"
+            - "GitLab CI"
+            - "Terraform"
+            - "Nexus Repository"
+            - "Docker"
+            - "Container registries"
+            - "Python"
+          exposure:
+            - "Service Design"
+            - "Business Vision Development"
+            - "Stakeholder Management"
+            - "Technical Governance"
+            - "Cross-team Collaboration"
+
+        - title: "Solutions Architect - CDM Service"
+          type: "Contract"
+          duration: "March 2024 - September 2024"
+          location: "Remote"
+          responsibilities:
+            - "Led service improvement initiatives for Container Delivery Management (CDM), a platform providing Kubernetes clusters as code to internal consumers"
+            - "Drove security compliance efforts, bringing the service in line with organizational security requirements"
+            - "Designed and implemented disaster recovery strategies for hybrid environments (on-premises TKGIv2 and AWS EKS)"
+            - "Troubleshot and optimized AWS Step Functions workflows, proposing pivots toward a more coherent technology stack"
+            - "Supported sub-services like CaaS (Cluster as a Service) built on CDM's Kubernetes offerings"
+          daily_stack:
+            - "AWS Step Functions"
+            - "EKS"
+            - "CloudWatch"
+            - "ArgoCD"
+            - "TKGIv2"
+            - "GitLab CI"
+            - "Terraform"
+          exposure:
+            - "Disaster Recovery Planning"
+            - "Security Compliance"
+            - "Hybrid Cloud Architecture"
+            - "Internal Platform Development"
+            - "Multi-tenant Architecture"
+
+    - company: "Cisco"
+      positions:
+        - title: "DevOps Tech Lead"
+          type: "Full-time"
+          duration: "October 2022 - March 2024"
+          location: "Poland (Remote)"
+          responsibilities:
+            - "Leading 10+ people spread across two different teams"
+            - "Designing cloud-based applications and platforms"
+            - "Enforcing GitOps and DevOps practices"
+            - "Optimising existing infrastructure and code"
+            - "Enforcing good practices and providing automated code quality checks"
+            - "Providing insight into capabilities of technologies for stakeholders"
+            - "Participating in business case reviews for projects"
+          daily_stack:
+            - "Python"
+            - "Argo CD"
+            - "Argo Workflows"
+            - "Argo Rollouts"
+            - "Kubernetes"
+            - "Helm"
+            - "Kustomize"
+            - "AWS CDK"
+            - "AWS ALB"
+            - "AWS EKS (EC2)"
+            - "AWS Lambda"
+            - "AWS API Gateway"
+            - "AWS Route53"
+            - "AWS ACM"
+            - "AWS EventBridge"
+            - "AWS S3"
+            - "GitHub Actions"
+          exposure:
+            - "Neo4j"
+            - "Ansible"
+            - "AWS EKS (Fargate)"
+            - "ThousandEyes"
+            - "AppDynamics"
+            - "AWS Amplify"
+            - "AWS EC2"
+            - "AWS VPC"
+            - "AWS PrivateLink"
+            - "AWS ELB"
+            - "AWS Cognito"
+            - "AWS CloudFront"
+            - "AWS ECS"
+            - "AWS ElasticBeanstalk"
+            - "AWS Xray"
+
+        - title: "Senior DevOps Engineer & Product Owner"
+          type: "Full-time"
+          duration: "March 2022 - October 2022"
+          location: "Cracow (Remote)"
+          responsibilities:
+            - "Leading a team of 7 engineers"
+            - "Designing and improving features"
+            - "Improving efficiency of infrastructure (IaC) and logic code"
+            - "Improving the efficiency of systems and processes using automation tools"
+            - "Providing technical expertise for Business Unit"
+            - "Being a PO for the team"
+          daily_stack:
+            - "Python"
+            - "Docker"
+            - "Linux"
+            - "AWS Lambda"
+            - "AWS API Gateway"
+            - "AWS Route53"
+            - "AWS ACM"
+            - "AWS CDK"
+            - "AWS Step Functions"
+            - "AWS EventBridge"
+            - "AWS S3"
+            - "AWS Cognito"
+            - "GitHub Actions"
+          exposure:
+            - "Neo4j"
+            - "Ansible"
+            - "Kubernetes"
+            - "Helm"
+            - "Kustomize"
+            - "ThousandEyes"
+            - "AppDynamics"
+            - "AWS Amplify"
+            - "AWS EC2"
+            - "AWS VPC"
+            - "AWS PrivateLink"
+            - "AWS ELB"
+            - "AWS CloudFront"
+            - "AWS ECS"
+            - "AWS SQS"
+            - "AWS SNS"
+            - "AWS ElasticBeanstalk"
+            - "AWS EKS"
+            - "AWS Xray"
+
+        - title: "DevOps Engineer & Product Owner"
+          type: "Self-employed"
+          duration: "March 2021 - March 2022"
+          location: "Poland"
+          responsibilities:
+            - "Work in Agile in Scrum"
+            - "Maintaining and improving IaaS/Serverless cloud-based applications"
+            - "Building Microservice Architecture driven applications"
+            - "Improving the efficiency of systems and processes using automation tools"
+            - "Supporting team of SMEs in building efficient software for network malfunction detection system"
+            - "Acting as a Product Owner in a Agile Scrum Team - planning, communicating and coordinating"
+            - "Setting up pipelines for linting, running tests and general quality assurance"
+          daily_stack:
+            - "Python"
+            - "Docker"
+            - "Linux"
+            - "AWS Lambda"
+            - "AWS API Gateway"
+            - "AWS CloudFormation"
+            - "AWS SAM"
+            - "AWS CloudWatch"
+            - "AWS Batch (ECS Fargate)"
+            - "AWS S3"
+            - "AWS EC2"
+            - "AWS DynamoDB"
+            - "GitHub Actions"
+            - "SecureX Orchestrator"
+          exposure:
+            - "Neo4j"
+            - "Ansible"
+            - "Kubernetes"
+            - "Helm"
+            - "Kustomize"
+            - "ThousandEyes"
+            - "AppDynamics"
+            - "AWS Amplify"
+            - "AWS ELB"
+            - "AWS ElasticBeanstalk"
+            - "AWS EKS"
+            - "AWS Route53"
+            - "Terraform"
+            - "Celery"
+            - "OpenStack"
+            - "JavaScript"
+            - "Prometheus & Grafana"
+            - "Jenkins"
+
+    - company: "Samsung Electronics"
+      positions:
+        - title: "DevOps Engineer"
+          type: "Contract/Freelance"
+          duration: "January 2022 - June 2022"
+          location: "Warsaw, Poland"
+          responsibilities:
+            - "Setting up an OpenShift Kubernetes cluster"
+            - "Maintenance and troubleshooting custom low-level load balancing application for 5G core network"
+            - "Developing new tools for troubleshooting network malfunctions on a packet basis on both pod and deployment level"
+            - "Introducing Scrum based behaviours into work environment"
+            - "Designing, building and maintaining the Hardware Infrastructure"
+            - "Configuration and improvement of CI/CD pipelines"
+            - "Deploying high performance L7 load-balancers for 5G Core Network on Kubernetes"
+            - "Troubleshooting 5G Core network malfunctions"
+            - "Supporting team of Software Developers in Virtualization and Containerization"
+          daily_stack:
+            - "Python"
+            - "Bash"
+            - "Docker"
+            - "OpenShift Kubernetes"
+            - "RedHat"
+            - "Ansible"
+            - "C++"
+
+    - company: "QVC"
+      positions:
+        - title: "Associate DevOps & Automation Engineer"
+          type: "Full-time"
+          duration: "October 2020 - April 2021"
+          location: "Cracow, Poland"
+          responsibilities:
+            - "Acquiring experience"
+            - "Jira Board administrator for scrum team"
+            - "Maintaining and deploying orchestrator tools"
+            - "Improving team velocity by automation and documentation"
+            - "Teaching others about caveats of tools in use"
+            - "Driving automation of processes when working with orchestration platforms to improve efficiency"
+            - "Work in Agile and learning how large scale companies operate"
+            - "Gained expertise in TCP/IP concepts learning from experienced colleagues"
+          daily_stack:
+            - "Python"
+            - "Jira"
+            - "Ansible"
+            - "Java"
+            - "StoneBranch Orchestrator"
+            - "MOVEit"
+
+    - company: "Fast Development"
+      positions:
+        - title: "Intern Python Software Developer"
+          type: "Internship"
+          duration: "November 2018 - February 2020"
+          location: "Katowice, Poland"
+          responsibilities:
+            - "Automation of processes"
+            - "Data analysis and validation"
+            - "Implementing custom web-servers"
+            - "Software Development for automation of services in Python in areas such as data analysis and process automation"
+            - "Improving the efficiency of the product deployments and testing by building CI/CD pipelines"
+          daily_stack:
+            - "Python"
+            - "Bash"
+            - "Apache HTTP Server"
+            - "Numpy"
+            - "REST APIs"
+            - "Jenkins"
+            - "LXC Containers"
+
+  other:
+    - title: "Major in Information and Communication Technologies"
+      organization: "AGH University of Science and Technology in Cracow"
+      duration: "2019-2022"
+      type: "Education"
+      description: |
+        Being an Information and Communication Technologies student allows to be decently
+        well versed in all areas of IT whilst extending that with knowledge about
+        telecommucation and signals theory. Variety of topics of which this field
+        consists is enourmous. Some of the examples are: Networks, Cybersecurity,
+        Software Development, Telecommunication, Information System Design and
+        Administration, Data Analysis and many others. Each of areas listed divides into
+        many smaller subareas in which students can get expertise by choosing his
+        prefered elective courses.
+        
+        My time at university was the most productive period I have had so far.
+        Explored many directions for personal growth. Played League of Legends
+        semi-profesionaly and coached AGH's team. Started hobbies such as cycling and powerlifting.
+        Met amazing people with whom I enjoy spending time with. Managed to hear
+        lecturers with lifetimes of experiences. Had fun.
+      key_learnings:
+        - "Leadership"
+        - "Presentation skills"
+        - "TCP/IP networks"
+        - "Unix systems"
+        - "Programming"
+        - "Communication"
+        - "Having fun"
+
+    - title: "Network Administrator"
+      organization: "Konarski Highschool in Oświęcim"
+      duration: "2015-2018"
+      type: "Education"
+      description: |
+        Was doing network administrator work for the most part of my highschool. I
+        installed operating systems on some servers or computers in the school's
+        library. Was responsible for organising the LAN events on the technical side
+        of things - hosting game servers, providing failover connection etc. Generally
+        had fun around technology.
+      key_learnings:
+        - "Ops"
+        - "Ansible"
+        - "Systems Administration at Scale"
+        - "Identity and Access Management (IAM)"
+        - "Network-Attached Storage (NAS)"
+
+    - title: "Co-Owner and Administrator"
+      organization: "minecrafci.pl"
+      duration: "2012-2016"
+      type: "Entrepreneurship"
+      description: |
+        When I was 12 years old me and a friend of mine decided to create a
+        Minecraft(a pretty popular game at that time) server hosting company. At the beggining
+        we would host a server off of my parents attic on which we were selling virtual
+        currecy, privilages etc.
+        
+        Later on as we scaled we moved to Hetzner VPS and started offering private
+        servers for users. It was a great experience, learned a lot about software
+        development (mostly Java). Had a chance to interact on the frontline as a
+        forum moderator and in-game administrator. It was working really great for us with
+        100-150 people on our servers on average during biggest hype moment for
+        Minecraft. This was one of the greatest journeys I have ever experienced.
+      key_learnings:
+        - "Ops"
+        - "Moderation"
+        - "Unix Systems"
+        - "Don't dig below yourself in Minecraft"
+
+services:
+  - icon: "fa-lightbulb"
+    color: "purple-color"
+    title: "Business Vision & Strategic Service Design"
+    description: |
+      I bridge business needs with technical implementation. From drafting service visions to aligning stakeholders, I turn concepts into production systems. Currently leading the NexusRepositoryAsAService initiative at the European Commission—conceiving the business case, defining the governance model, and driving adoption across teams. I work closely with Business Owners to position services for long-term growth while delivering immediate value.
+
+  - icon: "fa-sitemap"
+    color: "sky-color"
+    title: "Solutions Architecture"
+    description: |
+      I design systems that scale and last. Whether it's artifact management platforms, ML/AI data pipelines, or internal developer tools—I understand requirements, evaluate options, and architect pragmatically. I stay hands-on: prototyping new services, reviewing peer proposals, and building alongside teams. No ivory tower architecture—just practical solutions that teams can maintain and evolve.
+
+  - icon: "fa-users"
+    color: "iron-color"
+    title: "Cross-functional Collaboration & Mentorship"
+    description: |
+      Complex platforms require alignment across teams. I bring clarity to multi-stakeholder environments, leading technical governance discussions and coordinating with platform teams, security, and business units. I invest in people—mentoring developers, helping colleagues upskill on cloud technologies, and ensuring knowledge transfer happens naturally. The best architectures emerge from collaborative conversations, not top-down mandates.
+
+  - icon: "fa-rocket"
+    color: "green-color"
+    title: "Rapid Prototyping & Innovation"
+    description: |
+      I learn by building. From RefStore (a catalogue of scanned Docker images) to serverless ML pipelines on AWS—I prototype quickly, validate assumptions, and iterate toward production. Give me a new technology or problem domain, and I'll have a working proof of concept that demonstrates feasibility and uncovers edge cases. This hands-on approach de-risks architectural decisions and accelerates delivery.
+
+# Projects will be populated dynamically from GitHub API
+projects: []

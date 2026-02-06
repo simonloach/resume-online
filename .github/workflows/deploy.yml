@@ -1,0 +1,84 @@
+name: Build and deploy resume
+
+on:
+  push:
+    branches: [ master, main ]
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: resume-deploy
+      cancel-in-progress: true
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install system packages required by WeasyPrint
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            libcairo2 \
+            libpango-1.0-0 \
+            libgdk-pixbuf2.0-0 \
+            libffi-dev \
+            shared-mime-info
+
+      - name: Install UV
+        uses: astral-sh/setup-uv@v3
+        with:
+          version: "latest"
+
+      - name: Ensure uv-managed Python is available (3.11)
+        run: |
+          uv python install 3.11 || true
+
+      - name: Sync project dependencies (uv)
+        run: |
+          uv sync
+
+      - name: Generate HTML (uv)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          uv run python generate_resume.py || {
+            echo "UV run failed, trying direct execution..."
+            python3 generate_resume.py
+          }
+
+      - name: Generate PDF (uv)
+        run: |
+          uv run python generate_pdf_cv.py || {
+            echo "UV run failed, trying direct execution..."
+            python3 generate_pdf_cv.py
+          }
+
+      - name: Verify generated files
+        run: |
+          ls -lah html/
+          if [ ! -f "html/index.html" ]; then
+            echo "Error: index.html not generated"
+            exit 1
+          fi
+          if [ ! -f "html/cv.pdf" ]; then
+            echo "Error: cv.pdf not generated"
+            exit 1
+          fi
+
+      - name: Configure AWS credentials (OIDC)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Sync generated site to S3
+        env:
+          BUCKET: simon-resume-bucket
+        run: |
+          aws s3 sync html/ s3://$BUCKET --delete --cache-control "public, max-age=3600"

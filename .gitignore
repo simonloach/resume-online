@@ -1,0 +1,45 @@
+# Secrets and tokens
+*.pem
+token
+certificates/*
+
+# Python
+venv
+__pycache__
+*.pyc
+*.pyo
+*.egg-info
+.pytest_cache
+.python-version
+
+# UV
+.venv/
+uv.lock
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+html/index.html
+html/cv.pdf
+
+# Old/deprecated files
+jinja.html
+jinja.py
+index.html
+cv.pdf
+generate_pdf.py
+requirements.txt
+generator_requirements.txt
+from_linkedin_experience.txt
+roche_project_description.md
+roche_role_description.md
+test_generation.py
