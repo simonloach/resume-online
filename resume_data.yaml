@@ -753,29 +753,23 @@ experience:
         - "Don't dig below yourself in Minecraft"
 
 services:
-  - icon: "fa-lightbulb"
+  - icon: "fa-lightbulb-o"
     color: "purple-color"
-    title: "Business Vision & Strategic Service Design"
+    title: "Business Vision & Service Design"
     description: |
-      I bridge business needs with technical implementation. From drafting service visions to aligning stakeholders, I turn concepts into production systems. Currently leading the NexusRepositoryAsAService initiative at the European Commission—conceiving the business case, defining the governance model, and driving adoption across teams. I work closely with Business Owners to position services for long-term growth while delivering immediate value.
+      I bridge business needs with technical implementation. From drafting service visions to aligning stakeholders, I turn concepts into production systems. I work closely with Business Owners to position services for long-term growth while delivering immediate value.
 
   - icon: "fa-sitemap"
     color: "sky-color"
     title: "Solutions Architecture"
     description: |
-      I design systems that scale and last. Whether it's artifact management platforms, ML/AI data pipelines, or internal developer tools—I understand requirements, evaluate options, and architect pragmatically. I stay hands-on: prototyping new services, reviewing peer proposals, and building alongside teams. No ivory tower architecture—just practical solutions that teams can maintain and evolve.
-
-  - icon: "fa-users"
-    color: "iron-color"
-    title: "Cross-functional Collaboration & Mentorship"
-    description: |
-      Complex platforms require alignment across teams. I bring clarity to multi-stakeholder environments, leading technical governance discussions and coordinating with platform teams, security, and business units. I invest in people—mentoring developers, helping colleagues upskill on cloud technologies, and ensuring knowledge transfer happens naturally. The best architectures emerge from collaborative conversations, not top-down mandates.
+      I design systems that scale and last. Whether it's artifact management platforms, ML/AI data pipelines, or internal developer tools—I understand requirements, evaluate options, and architect pragmatically. No ivory tower architecture—just practical solutions that teams can maintain and evolve.
 
   - icon: "fa-rocket"
     color: "green-color"
-    title: "Rapid Prototyping & Innovation"
+    title: "Hands-on Delivery & Team Enablement"
     description: |
-      I learn by building. From RefStore (a catalogue of scanned Docker images) to serverless ML pipelines on AWS—I prototype quickly, validate assumptions, and iterate toward production. Give me a new technology or problem domain, and I'll have a working proof of concept that demonstrates feasibility and uncovers edge cases. This hands-on approach de-risks architectural decisions and accelerates delivery.
+      I learn by building. I prototype quickly, validate assumptions, and iterate toward production. I also invest in people—mentoring developers, facilitating cross-team alignment, and ensuring knowledge transfer happens naturally. The best architectures emerge from collaborative conversations, not top-down mandates.
 
 # Projects will be populated dynamically from GitHub API
 projects: []
