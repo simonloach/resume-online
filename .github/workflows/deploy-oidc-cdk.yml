@@ -29,6 +29,10 @@ jobs:
           role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
           aws-region: ${{ secrets.AWS_REGION }}
 
+      - name: CDK bootstrap
+        working-directory: infra
+        run: npx cdk bootstrap
+
       - name: CDK deploy
         working-directory: infra
         run: npx cdk deploy --require-approval never --outputs-file cdk-outputs.json
