@@ -1,8 +1,7 @@
 name: Build and deploy resume
 
 on:
-  push:
-    branches: [ master, main ]
+  # Auto-deploy disabled: this repo is deprecated. The site now deploys from devouch/homepage.
   workflow_dispatch:
 
 permissions:
